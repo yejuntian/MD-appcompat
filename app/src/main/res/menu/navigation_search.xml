@@ -2,20 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_gallery"
-        android:icon="@android:drawable/ic_menu_gallery"
+        android:id="@+id/action_search"
         android:orderInCategory="100"
-        android:title="相册"
-        app:actionViewClass="android.support.v7.widget.SearchView" />
+        android:title="查找"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
     <item
-        android:id="@+id/action_details"
-        android:icon="@android:drawable/ic_menu_info_details"
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
         android:orderInCategory="100"
-        android:title="详情" />
+        android:title="分享"
+        app:showAsAction="always" />
     <item
-        android:id="@+id/action_about"
-        android:icon="@android:drawable/ic_menu_help"
+        android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="关于" />
+        android:title="设置"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:title="编辑"
+        app:showAsAction="ifRoom" />
 
 </menu>
