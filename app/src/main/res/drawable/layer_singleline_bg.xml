@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!--底层使用蓝色填充色-->
+            <solid android:color="#02a0ef"></solid>
+        </shape>
+    </item>
+
+    <!--最上面层距离底层10dp高度并覆盖底层颜色（相当于marginTop属性）-->
+    <item android:top="1dp">
+        <shape>
+            <solid android:color="#fff"></solid>
+        </shape>
+    </item>
+</layer-list>

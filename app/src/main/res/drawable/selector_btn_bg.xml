@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--被选中时是8dp的底部边线-->
+    <item android:drawable="@drawable/layer_select_checked_bg" android:state_checked="true" />
+
+    <!--未被选中的是2dp的底部边线-->
+    <item android:drawable="@drawable/layer_select_unchecked_bg" />
+</selector>

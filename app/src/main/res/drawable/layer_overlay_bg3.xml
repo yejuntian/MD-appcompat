@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--注意：-->
+    <!--A. 不缩放的时候，必须在 item 节点中使用 bitmap 节点，并给 bitmap 设置 gravity=center ;-->
+
+    <!--B. 虽然在实现缩放效果的时候，可以直接使用 item 中的 drawable属性，但实现不缩放的效果时，
+    如果还用drawable 属性，即便给item 设置了gravity =center ，
+    在真机上的效果依旧是缩放的。（但模拟器是不缩放的）-->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher"></bitmap>
+
+    </item>
+
+    <item
+        android:left="15dp"
+        android:top="15dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher"></bitmap>
+    </item>
+
+    <item
+        android:left="30dp"
+        android:top="30dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher"></bitmap>
+
+    </item>
+
+
+    <item
+        android:left="45dp"
+        android:top="45dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher"></bitmap>
+
+    </item>
+
+</layer-list>

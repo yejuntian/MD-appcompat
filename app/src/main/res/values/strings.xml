@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MD-appcompat</string>
+    <string name="drawable_close">close</string>
+    <string name="drawable_open">open</string>
+</resources>

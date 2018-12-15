@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--缩放效果2-->
+    <item android:drawable="@drawable/ic_launcher"></item>
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:left="15dp"
+        android:top="15dp"></item>
+
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:left="30dp"
+        android:top="30dp"></item>
+
+</layer-list>
