@@ -1,11 +1,14 @@
 package appcompat.com.md_appcompat.tabLayout;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +41,51 @@ public class TabLayoutActivity extends AppCompatActivity {
         tableLayout.setupWithViewPager(viewPager, false);
         viewPager.setAdapter(adapter);
 
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tableLayout));
+//        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tableLayout));
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
 
+            @Override
+            public void onPageSelected(int position) {
+                setTabColor(position);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+            }
+        });
+
+        //设置Tab不同样式
+        int count = tableLayout.getTabCount();
+        for (int i = 0; i < count; i++) {
+            TabLayout.Tab tab = tableLayout.getTabAt(i);
+            View view = View.inflate(getApplicationContext(), R.layout.tab_item_layout, null);
+            TextView tabName = view.findViewById(R.id.tv_tab_name);
+            tabName.setText(title[i]);
+            tab.setCustomView(view);
+        }
+        //设置默认第一个为选择状态
+        setTabColor(0);
+
+    }
+
+    /**
+     * 自定义切换tab文本颜色
+     *
+     * @param pos
+     */
+    public void setTabColor(int pos) {
+        for (int i = 0; i < tableLayout.getTabCount(); i++) {
+            TabLayout.Tab tab = tableLayout.getTabAt(i);
+            View view = tab.getCustomView();
+            TextView tabName = view.findViewById(R.id.tv_tab_name);
+            if (pos != i) {
+                tabName.setTextColor(Color.BLACK);
+            } else {
+                tabName.setTextColor(Color.RED);
+            }
+        }
     }
 }
