@@ -18,7 +18,8 @@
         <!--<activity android:name="appcompat.com.md_appcompat.textInputLayout.TextInputLayoutActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.toolbar.ToolBarActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.searchview.SearchViewActivity">-->
-        <activity android:name="appcompat.com.md_appcompat.tabLayout.TabLayoutActivity">
+        <!--<activity android:name="appcompat.com.md_appcompat.tabLayout.TabLayoutActivity">-->
+        <activity android:name="appcompat.com.md_appcompat.NavigationBar.NavigationActivity">
         <!--<activity android:name="appcompat.com.shap.layerListActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
