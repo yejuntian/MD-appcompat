@@ -10,6 +10,9 @@ import android.view.MenuItem;
 
 import appcompat.com.md_appcompat.R;
 
+/**
+ * 侧拉菜单
+ */
 public class NavigationViewActivity extends AppCompatActivity {
     NavigationView navigationView;
     DrawerLayout drawerLayout;

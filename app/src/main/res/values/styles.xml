@@ -9,6 +9,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <!--等一般控件的选中效果默认采用该颜色-->
         <item name="colorAccent">@color/colorAccent</item>
+
     </style>
 
 </resources>
