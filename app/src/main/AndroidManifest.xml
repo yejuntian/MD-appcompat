@@ -22,7 +22,8 @@
         <!--<activity android:name="appcompat.com.md_appcompat.NavigationBar.NavigationBarActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.NavigationBar.NavigationBottomBarActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.NavigationBar.BaseTranslateActivity">-->
-        <activity android:name="appcompat.com.md_appcompat.CoordinatorLayout.CoordinatorLayoutActivity">
+        <!--<activity android:name="appcompat.com.md_appcompat.CoordinatorLayout.CoordinatorLayoutActivity">-->
+        <activity android:name="appcompat.com.md_appcompat.cardView.CardViewActivity">
         <!--<activity android:name="appcompat.com.shap.layerListActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
