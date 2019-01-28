@@ -1,4 +1,4 @@
-package appcompat.com.md_appcompat.CoordinatorLayout;
+package appcompat.com.md_appcompat.CustomCoordinatorLayout;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;

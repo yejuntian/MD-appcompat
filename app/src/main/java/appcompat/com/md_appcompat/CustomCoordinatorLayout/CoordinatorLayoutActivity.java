@@ -1,4 +1,4 @@
-package appcompat.com.md_appcompat.CoordinatorLayout;
+package appcompat.com.md_appcompat.CustomCoordinatorLayout;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

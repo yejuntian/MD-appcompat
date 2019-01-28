@@ -1,4 +1,4 @@
-package appcompat.com.md_appcompat.CoordinatorLayout;
+package appcompat.com.md_appcompat.CustomCoordinatorLayout;
 
 /**
  * <动画显示和隐藏动画>
