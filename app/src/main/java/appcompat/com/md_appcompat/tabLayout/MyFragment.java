@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import appcompat.com.md_appcompat.R;
+
 public class MyFragment extends Fragment {
     String title;
 
@@ -23,8 +25,9 @@ public class MyFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        TextView textView = new TextView(getContext());
+        View view = inflater.inflate(R.layout.frag_tablayout_layout, container, false);
+        TextView textView = view.findViewById(R.id.tv_tab_name);
         textView.setText(title);
-        return textView;
+        return view;
     }
 }
