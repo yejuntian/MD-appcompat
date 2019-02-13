@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * <类说明 必填>
+ * <一个view监听另一个view的状态>
  *
  * @version [版本号]
  * @see [参考资料]

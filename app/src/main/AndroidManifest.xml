@@ -29,7 +29,8 @@
         <!--<activity android:name="appcompat.com.md_appcompat.AppBarLayout.AppBarLayoutActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.AppBarLayout.BehaviorActivity">-->
         <!--<activity android:name="appcompat.com.md_appcompat.CollapsingToolbarLayout.CollapsingToolBarLayoutActivity">-->
-        <activity android:name="appcompat.com.md_appcompat.CustomBehavior.CustomBehaviorActivity">
+        <!--<activity android:name="appcompat.com.md_appcompat.CustomBehavior.CustomBehaviorActivity">-->
+        <activity android:name="appcompat.com.md_appcompat.CustomBehavior.CustomBehaviorActivity2">
         <!--<activity android:name="appcompat.com.md_appcompat.ConstraintLayout.ConstraintLayoutActivity">-->
         <!--<activity android:name="appcompat.com.shap.layerListActivity">-->
             <intent-filter>
