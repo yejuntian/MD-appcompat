@@ -24,6 +24,12 @@
         android:layout_height="100dp"
         android:text="转场动画" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="高版本动画默认效果" />
+
     <ImageView
         android:id="@+id/imgGirl"
         android:layout_width="wrap_content"

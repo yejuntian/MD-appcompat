@@ -3,6 +3,7 @@ package appcompat.com.md_appcompat.MDAnimal;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.transition.Slide;
 import android.view.Window;
 
 import appcompat.com.md_appcompat.R;
@@ -21,5 +22,15 @@ public class ShareElementActivity extends AppCompatActivity {
         getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_share_element_layout);
+
+
+//        Slide trasation = null;
+//        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+//            trasation = new Slide();
+//            trasation.setDuration(1000);
+//            getWindow().setEnterTransition(trasation);//进入的动画
+//            getWindow().setExitTransition(trasation);//退出的动画
+//        }
+
     }
 }
