@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appcompat.com.md_appcompat.touchevent.MyViewGroup01 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:background="#ff00"
+    android:orientation="vertical">
+
+    <appcompat.com.md_appcompat.touchevent.MyViewGroup02
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#00ff00">
+
+        <appcompat.com.md_appcompat.touchevent.MyView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00f" />
+    </appcompat.com.md_appcompat.touchevent.MyViewGroup02>
+
+</appcompat.com.md_appcompat.touchevent.MyViewGroup01>
